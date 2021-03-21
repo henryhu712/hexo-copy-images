@@ -1,10 +1,14 @@
 /**
- * Helo-copy-imges
+ * Hexo-copy-images
  */
 
-function copy() {
+import { fs } from 'fs'
 
-  console.log('In copy')
-})
+function copy(filename) {
+
+  const data = fs.readFileSync(filename)
+
+  console.log('In copy: ', data)
+}
 
 module.exports = copy

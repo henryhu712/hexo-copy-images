@@ -1,6 +1,6 @@
 {
   "name": "hexo-copy-images",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A Hexo deployment helper.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/henryhu712/hexo-copy-images/issues"
   },
-  "homepage": "https://github.com/henryhu712/hexo-copy-images#readme"
+  "homepage": "https://github.com/henryhu712/hexo-copy-images#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
 }
